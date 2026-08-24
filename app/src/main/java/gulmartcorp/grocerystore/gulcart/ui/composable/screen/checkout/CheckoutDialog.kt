@@ -10,11 +10,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import gulmartcorp.grocerystore.gulcart.R
 
 @Composable
 fun CheckoutDialog(
+    orderNumber: String,
     onConfirm: () -> Unit,
 ) {
     AlertDialog(
@@ -38,18 +38,13 @@ fun CheckoutDialog(
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurface
                 )
+                Text(
+                    text = "Order #$orderNumber",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                )
             }
         },
         containerColor = MaterialTheme.colorScheme.surface
     )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun CheckoutDialogPreview() {
-    MaterialTheme {
-        CheckoutDialog(
-            onConfirm = {}
-        )
-    }
 }

@@ -5,7 +5,7 @@
     <string name="ahsqy_price">£%1$.2f</string>
 
     <!-- top bar titles -->
-    <string name="ahsqy_top_bar_home_title">Home/App Title</string>
+    <string name="ahsqy_top_bar_home_title">Gul Cart</string>
     <string name="ahsqy_top_bar_cart_title">Cart</string>
     <string name="ahsqy_top_bar_checkout_title">Checkout</string>
     <string name="ahsqy_top_bar_orders_title">Orders</string>
@@ -19,12 +19,12 @@
     <string name="ahsqy_bottom_bar_nav_item_settings_title">Settings</string>
 
     <!-- onboarding screen -->
-    <string name="ahsqy_page_1_title">Strategic Planning</string>
-    <string name="ahsqy_page_2_title">Operational Excellence</string>
-    <string name="ahsqy_page_3_title">Change Management</string>
-    <string name="ahsqy_page_1_description">Comprehensive strategic analysis and planning that aligns your business objectives with market opportunities and organizational capabilities.</string>
-    <string name="ahsqy_page_2_description">Process optimization and operational improvement strategies that enhance efficiency, reduce costs, and drive sustainable performance.</string>
-    <string name="ahsqy_page_3_description">Expert guidance through organizational transformation</string>
+    <string name="ahsqy_page_1_title">Everyday essentials</string>
+    <string name="ahsqy_page_2_title">Shop your way</string>
+    <string name="ahsqy_page_3_title">Ready when you are</string>
+    <string name="ahsqy_page_1_description">Fresh food, pantry favourites, drinks, and household essentials in one dependable shop.</string>
+    <string name="ahsqy_page_2_description">Browse clear categories, discover weekly offers, and build your basket in a few easy taps.</string>
+    <string name="ahsqy_page_3_description">Place an order and see its details instantly, with clear delivery or collection updates.</string>
     <string name="ahsqy_next_button_title">Next</string>
     <string name="ahsqy_start_button_title">Start</string>
     <string name="ahsqy_skip_button_title">Skip</string>
@@ -64,9 +64,16 @@
     <string name="ahsqy_settings_screen_company_label">Company</string>
     <string name="ahsqy_settings_screen_version_label">Version</string>
     <string name="ahsqy_settings_screen_customer_support_label">Customer Support</string>
-    <string name="ahsqy_company_name">Company Name</string>
-    <string name="ahsqy_app_version">1.0.0</string>
-    <string name="ahsqy_customer_support_link">https://website.org/</string>
+    <string name="ahsqy_company_name">GUL MART LTD</string>
+    <string name="ahsqy_app_version">1.0</string>
+    <string name="ahsqy_customer_support_link">https://gulmart.casa</string>
+
+    <!-- product categories -->
+    <string name="ahsqy_category_fresh">Fresh</string>
+    <string name="ahsqy_category_bakery">Bakery</string>
+    <string name="ahsqy_category_pantry">Pantry</string>
+    <string name="ahsqy_category_drinks">Drinks</string>
+    <string name="ahsqy_category_ready_meals">Ready Meals</string>
 
     <!-- clear cart dialog -->
     <string name="ahsqy_clear_cart_dialog_title">Clear cart?</string>
